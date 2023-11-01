@@ -48,14 +48,28 @@ namespace Bai1
         private void Form1_Load(object sender, EventArgs e)
         {
 
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string add = "insert into dbo.Khoa values ('" + txtMaKhoa.Text + "','" + txtTenKhoa.Text+"')";
-            SqlCommand cmd = new SqlCommand(add, sqlketnoi);
-            cmd.ExecuteNonQuery();
-            MessageBox.Show("Them thanh cong!");
+            try
+            {
+                if(KT_MaKhoa(txtMaKhoa.Text)==true)
+                {
+                    sqlketnoi.Open();
+                    string add = "insert into dbo.Khoa values ('" + txtMaKhoa.Text + "','" + txtTenKhoa.Text + "')";
+                    SqlCommand cmd = new SqlCommand(add, sqlketnoi);
+                    cmd.ExecuteNonQuery();
+                    sqlketnoi.Close();
+                    MessageBox.Show("Them thanh cong!");
+                }
+                else {MessageBox.Show("Trung ma khoa");}
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("That Bai");
+            }
         }
 
         private void label2_Click_1(object sender, EventArgs e)
@@ -82,6 +96,22 @@ namespace Bai1
             SqlCommand cmd = new SqlCommand(upda, sqlketnoi);
             cmd.ExecuteNonQuery();
             MessageBox.Show("Sua thanh cong!");
+        }
+        bool KT_MaKhoa(string ma)
+        {
+            try
+            {
+                //mo ket noi
+                sqlketnoi.Open();
+                string selectstring = "select count(*) from dbo.Khoa where MaKhoa='" + ma + "'";
+                SqlCommand cmd = new SqlCommand(selectstring, sqlketnoi);
+                int count = (int)cmd.ExecuteNonQuery();
+                sqlketnoi.Close();
+                if (count >= 1)
+                    return false;
+                return true;
+            }
+            catch (Exception ex) { return false; }
         }
     }
 }

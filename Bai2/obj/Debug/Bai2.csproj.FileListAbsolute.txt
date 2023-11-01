@@ -1,0 +1,8 @@
+E:\LuuDuLieuSinhVien\Buoi09_LuuThuyMinhNhat_2033210404\Bai2\bin\Debug\Bai2.exe.config
+E:\LuuDuLieuSinhVien\Buoi09_LuuThuyMinhNhat_2033210404\Bai2\bin\Debug\Bai2.exe
+E:\LuuDuLieuSinhVien\Buoi09_LuuThuyMinhNhat_2033210404\Bai2\bin\Debug\Bai2.pdb
+E:\LuuDuLieuSinhVien\Buoi09_LuuThuyMinhNhat_2033210404\Bai2\obj\Debug\Bai2.Form1.resources
+E:\LuuDuLieuSinhVien\Buoi09_LuuThuyMinhNhat_2033210404\Bai2\obj\Debug\Bai2.Properties.Resources.resources
+E:\LuuDuLieuSinhVien\Buoi09_LuuThuyMinhNhat_2033210404\Bai2\obj\Debug\Bai2.csproj.GenerateResource.Cache
+E:\LuuDuLieuSinhVien\Buoi09_LuuThuyMinhNhat_2033210404\Bai2\obj\Debug\Bai2.exe
+E:\LuuDuLieuSinhVien\Buoi09_LuuThuyMinhNhat_2033210404\Bai2\obj\Debug\Bai2.pdb

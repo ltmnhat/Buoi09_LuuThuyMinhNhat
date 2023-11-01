@@ -70,12 +70,18 @@ namespace Bai1
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            string dele = "delete from dbo.Khoa where MaKhoa=" + "'" + txtMaKhoa.Text + "'";
+            SqlCommand cmd = new SqlCommand(dele, sqlketnoi);
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Xoa thanh cong!");
         }
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-
+            string upda = "update dbo.Khoa set TenKhoa='" + txtTenKhoa.Text + "'" + " where MaKhoa=" + txtMaKhoa.Text;
+            SqlCommand cmd = new SqlCommand(upda, sqlketnoi);
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Sua thanh cong!");
         }
     }
 }

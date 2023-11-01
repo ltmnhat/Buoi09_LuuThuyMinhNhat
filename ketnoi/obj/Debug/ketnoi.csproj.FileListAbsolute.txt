@@ -1,6 +1,0 @@
-E:\LuuDuLieuSinhVien\Buoi09_LuuThuyMinhNhat_2033210404\ketnoi\bin\Debug\ketnoi.exe.config
-E:\LuuDuLieuSinhVien\Buoi09_LuuThuyMinhNhat_2033210404\ketnoi\bin\Debug\ketnoi.exe
-E:\LuuDuLieuSinhVien\Buoi09_LuuThuyMinhNhat_2033210404\ketnoi\bin\Debug\ketnoi.pdb
-E:\LuuDuLieuSinhVien\Buoi09_LuuThuyMinhNhat_2033210404\ketnoi\obj\Debug\ketnoi.csprojResolveAssemblyReference.cache
-E:\LuuDuLieuSinhVien\Buoi09_LuuThuyMinhNhat_2033210404\ketnoi\obj\Debug\ketnoi.exe
-E:\LuuDuLieuSinhVien\Buoi09_LuuThuyMinhNhat_2033210404\ketnoi\obj\Debug\ketnoi.pdb
